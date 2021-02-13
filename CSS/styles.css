@@ -1,8 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+
 * {
-    background-color: #90E0EF;
+    background-color: #e5dada;
 }
 
+body {
+    color: #023E8A;
+}
 
 h1 {
-    color: #5e0000;
+    color: #02040f;
+}
+
+.nav_menu  {
+
+    border: 3px solid;
+    border-color: #023E8A;
+    
+    font-family: "Noto serif", sans-serif;
+    font-weight: bold;
+    color: #e59500;
 }
