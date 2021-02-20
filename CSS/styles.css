@@ -13,12 +13,36 @@ h1 {
     color: #02040f;
 }
 
+img {
+    max-block-size: 300px;
+}
+
+.top-left {
+    float: left;
+    margin-right: 10px;
+    padding: none;
+}
+
 .nav_menu  {
+
+    position: sticky;
+    top: 10px;
 
     border: 3px solid;
     border-color: #023E8A;
     
     font-family: "Noto serif", sans-serif;
     font-weight: bold;
+    
     color: #e59500;
+}
+
+.horizontal {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.inline {
+    display: inline;
 }
